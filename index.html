@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FORT.css">
+    <script type="module"src="https://cdn.jsdelivr.net/npm/@mariohamann/activity-graph/dist/activity-graph.min.js"></script>
+    <script type="module" 
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <title>FORTPOLIO</title>
+</head>
+<body class="">
+
+    <div class="container">
+
+        <!-- navbar hadi -->
+
+        <nav class="navbar">
+            <div class="box theme">
+               <div class="item" onclick="theme()">
+                <ion-icon id="lightBtn" name="sunny-outline"></ion-icon>
+                <ion-icon id="darkBtn" name="moon-outline" style="display: none;"></ion-icon>
+               </div>  
+            </div>
+            <div class="box nav">
+                <div class="items active">
+                    <a href="#about">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <p>about</p>
+                    </a>
+                    <div class="divider rtl"></div>
+                </div>
+                <div class="items ">
+                    <a href="#resume">
+                        <ion-icon name="file-tray-full-outline"></ion-icon>
+                        <p>resume</p>
+                    </a>
+                    <div class="divider rtl"></div>
+                </div>
+                <div class="items ">
+                    <a href="#projects">
+                        <ion-icon name="layers-outline"></ion-icon>
+                        <p>projects</p>
+                    </a>
+                    <div class="divider ltr"></div>
+                </div>
+                <div class="items ">
+                    <a href="#blogs">
+                        <ion-icon name="reader-outline"></ion-icon>
+                        <p>blogs</p>
+                    </a>
+                    <div class="divider ltr"></div>
+                </div>
+                <div class="items ">
+                    <a href="#contact">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                        <p>contact</p>
+                    </a>
+                    <div class="divider ltr"></div>
+                </div>
+            </div>
+        </nav>
+        <!-- hadi dyal profil -->
+
+        <div class="box profile">
+
+            <img class="header" src="WhatsApp Image 2025-12-30 at 19.36.29.jpeg" alt="">
+            <img class="img" src="WhatsApp Image 2025-12-30 at 19.36.29.jpeg" alt="">
+            <h2>Amine Youbine</h2>
+            <p id="typed" class="colored">Full-stack web developer</p>
+            <ul>
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+            <div class="footer">
+                <div class="divider rtl"></div>
+                <table>
+                    <tr>
+                        <td><a href="#">My Resume<ion-icon name="file-tray-full-outline"></ion-icon></a></td>
+                        <td><a href="#">Contact Me</a><ion-icon name="call-outline"></ion-icon></td>
+                    </tr>
+                </table>
+            </div>         
+             
+        </div>
+
+       <!-- HADI DYAL LCONTENT -->
+
+        <div class="box content">
+            <div class="wrapper">
+            <h2 id="about">Hey <span class="colored">There!</span>👋</h2>
+            <div class="divider ltr"></div>
+            <p>Je suis <span class="colored">développeur full stack</span>, spécialisé dans la création d’applications web complètes.
+Je maîtrise le <span class="colored">front-end</span> et le <span class="colored">back-end</span>, de la conception à la mise en production.
+Je veille à la performance, à la sécurité et à une bonne expérience utilisateur.
+Motivé et passionné, je m’adapte facilement aux nouveaux défis technologiques.
+            </p>
+            <!-- HADI DYAL L ACHIVEMENT -->
+            <section class="achivements">
+            <div>
+                <h3><ion-icon name="layers-outline"></ion-icon>2K+</h3>
+                <p>Website Designed</p>
+            </div>
+             <div>
+                <h3><ion-icon name="briefcase-outline"></ion-icon>5K+</h3>
+                <p>Years of Experience</p>
+            </div>
+             <div>
+                <h3><ion-icon name="rocket-outline"></ion-icon>4K+</h3>
+                <p>Completed projects</p>
+            </div>
+            </section>
+            <!-- HADI DYAL SKILLSSSSSSSS -->
+             <h2>My <span class="colored">skills</span></h2>
+             <div class="divider ltr"></div>
+
+             <section class="skills">
+                <div><ion-icon name="logo-html5"></ion-icon><p>HTML5</p></div>
+                <div><ion-icon name="logo-css3"></ion-icon><p>CSS</p></div>
+                <div><ion-icon name="logo-react"></ion-icon><p>React</p></div>
+                <div><ion-icon name="logo-python"></ion-icon><p>Python</p></div>
+                <div>
+                    <div class="circle" style="--percent:65%">
+                        <h4>65<small>%</small></h4>
+                    </div>
+                    <P>MySQL</P>
+                </div>
+                <div>
+                    <div class="circle" style="--percent:85%">
+                        <h4>85<small>%</small></h4>
+                    </div>
+                    <P>MySQL</P>
+                </div>
+                <div>
+                    <div class="progress-bar">
+                      <p>Node Js <span>90%</span></p>
+                      <progress max="100" value="90"></progress>
+                    </div>
+                    <div class="progress-bar">
+                      <p>PostgreSQL <span>75%</span></p>
+                      <progress max="100" value="75"></progress>
+                    </div>
+                </div>
+             </section>
+                   <!-- hadi dyal experience -->
+                    <h2 id="resume">My <span class="colored">Experience</span></h2>
+                    <div class="divider ltr"></div>
+
+                    <section class="experiences">
+                        <div class="experience">
+                            <h2>Senior Phyton Developer</h2>
+                            <h4>Google Inc. <span class="date">Oct, 2018</span> &#x26AC; <span class="date">Oct, 2020</span></h4>
+                            <p>Je suis développeur Full Stack avec une expérience dans la conception et le développement d’applications web complètes.
+                               Je maîtrise les technologies Front-End comme HTML, CSS, JavaScript ainsi que des frameworks tels que React.
+                               Côté Back-End, je travaille avec Node.js, PHP ou Python et la gestion des bases de données MySQL et MongoDB.
+                               Autonome et orienté solution, je m’adapte facilement au travail en équipe et aux besoins des projets.</p>
+                        </div>
+                        <div class="experience">
+                            <h2>DataBase Developer </h2>
+                            <h4>Freshwoks Inc.<span class="date">Oct, 2012</span> &#x26AC; <span class="date">Oct, 2018</span></h4>
+                            <p>Je suis développeur Full Stack avec une expérience dans la conception et le développement d’applications web complètes.
+                               Je maîtrise les technologies Front-End comme HTML, CSS, JavaScript ainsi que des frameworks tels que React.
+                               Côté Back-End, je travaille avec Node.js, PHP ou Python et la gestion des bases de données MySQL et MongoDB.
+                               Autonome et orienté solution, je m’adapte facilement au travail en équipe et aux besoins des projets.</p>
+                        </div>
+                        <div class="experience">
+                            <h2>Full Stack Web Developer</h2>
+                            <h4> Integrity Software,Inc.<span class="date">Oct, 2010</span> &#x26AC; <span class="date">Oct, 2014</span></h4>
+                            <p>Je suis développeur Full Stack avec une expérience dans la conception et le développement d’applications web complètes.
+                               Je maîtrise les technologies Front-End comme HTML, CSS, JavaScript ainsi que des frameworks tels que React.
+                               Côté Back-End, je travaille avec Node.js, PHP ou Python et la gestion des bases de données MySQL et MongoDB.
+                               Autonome et orienté solution, je m’adapte facilement au travail en équipe et aux besoins des projets.</p>
+                        </div>
+                    </section>
+
+                     <h2>My <span class="colored">Constribuation</span></h2>
+                     <div class="divider ltr"></div>
+
+                     <!-- ou hadi dyal contribuation -->
+
+                     <section class="contribuation">
+                        <div class="wrapper">
+                            <activity-graph
+                            	range-start="2021-01-01"
+                            	range-end="2021-12-31"
+                                activity-levels="0,1,2,3,5"
+                            	activity-data="2021-01-01,2021-01-01,2021-01-01,2021-01-01,2021-01-01,2021-01-02,2021-01-02,2021-01-02,2021-01-02,2021-01-02,2021-01-03,2021-01-03,2021-01-03,2021-01-04,2021-01-04,2021-01-05,2021-01-05,2021-01-06,2021-01-06,2021-01-06,2021-01-06,2021-01-06,2021-01-07,2021-01-07,2021-01-08,2021-01-08,2021-01-08,2021-01-09,2021-01-11,2021-01-11,2021-01-11,2021-01-11,2021-01-11,2021-01-11,2021-01-11,2021-01-11,2021-01-11,2021-01-11,2021-01-12,2021-01-12,2021-01-12,2021-01-12,2021-01-15,2021-01-15,2021-01-16,2021-01-16,2021-01-16,2021-01-18,2021-01-18,2021-01-18,2021-01-18,2021-01-01,2021-01-18,2021-01-18,2021-01-18,2021-01-18,2021-01-21,2021-01-21,2021-01-21,2021-01-21,2021-01-22,2021-01-22,2021-01-23,2021-01-23,2021-01-24,2021-01-24,2021-01-24,2021-01-24,2021-01-27,2021-01-27,2021-01-27,2021-01-27,2021-01-28,2021-01-28,2021-01-29,2021-01-29,2021-01-29,2021-01-30,2021-01-30,2021-01-30,2021-01-30,2021-02-01,2021-02-01,2021-02-01,2021-02-01,2021-02-01,2021-02-02,2021-02-02,2021-02-02,2021-02-02,2021-02-02,2021-02-03,2021-02-03,2021-02-03,2021-02-04,2021-02-04,2021-02-05,2021-02-05,2021-02-06,2021-02-06,2021-02-06,2021-02-06,2021-02-06,2021-02-07,2021-02-07,2021-02-08,2021-02-08,2021-02-08,2021-02-09,2021-02-11,2021-02-11,2021-02-11,2021-02-11,2021-02-11,2021-02-11,2021-02-11,2021-02-11,2021-02-11,2021-02-11,2021-02-12,2021-02-12,2021-02-12,2021-02-12,2021-02-15,2021-02-15,2021-02-16,2021-02-16,2021-02-16,2021-02-18,2021-02-18,2021-02-18,2021-02-18,2021-02-01,2021-02-18,2021-02-18,2021-02-18,2021-02-18,2021-02-21,2021-02-21,2021-02-21,2021-02-21,2021-02-22,2021-02-22,2021-02-23,2021-02-23,2021-02-24,2021-02-24,2021-02-24,2021-02-24,2021-02-27,2021-02-27,2021-02-27,2021-02-27,2021-02-28,2021-02-28,2021-02-29,2021-02-29,2021-02-29,2021-02-30,2021-02-30,2021-02-30,2021-02-30,2021-03-01,2021-03-01,2021-03-01,2021-03-01,2021-03-01,2021-03-02,2021-03-02,2021-03-02,2021-03-02,2021-03-02,2021-03-03,2021-03-03,2021-03-03,2021-03-04,2021-03-04,2021-03-05,2021-03-05,2021-03-06,2021-03-06,2021-03-06,2021-03-06,2021-03-07,2021-03-06,2021-03-08,2021-03-07,2021-03-08,2021-03-08,2021-03-11,2021-03-09,2021-03-11,2021-03-11,2021-03-11,2021-03-11,2021-03-11,2021-03-11,2021-03-11,2021-03-11,2021-03-12,2021-03-11,2021-03-12,2021-03-12,2021-03-15,2021-03-12,2021-03-16,2021-03-15,2021-03-16,2021-03-16,2021-03-18,2021-03-18,2021-03-18,2021-03-18,2021-03-18,2021-03-01,2021-03-18,2021-03-18,2021-03-21,2021-03-18,2021-03-21,2021-03-21,2021-03-22,2021-03-21,2021-03-23,2021-03-22,2021-03-24,2021-03-23,2021-03-24,2021-03-24,2021-03-27,2021-03-24,2021-03-27,2021-03-27,2021-03-28,2021-03-27,2021-03-29,2021-03-28,2021-03-29,2021-03-29,2021-03-30,2021-03-30,2021-03-30,2021-03-30,2021-04-01,2021-04-01,2021-04-01,2021-04-01,2021-04-01,2021-04-01,2021-04-02,2021-04-02,2021-04-02,2021-04-02,2021-04-02,2021-04-03,2021-04-03,2021-04-03,2021-04-04,2021-04-04,2021-04-05,2021-04-05,2021-04-06,2021-04-06,2021-04-06,2021-04-06,2021-04-06,2021-04-07,2021-04-07,2021-04-08,2021-04-08,2021-04-08,2021-04-09,2021-04-11,2021-04-11,2021-04-11,2021-04-11,2021-04-11,2021-04-11,2021-04-11,2021-04-11,2021-04-11,2021-04-11,2021-04-12,2021-04-12,2021-04-12,2021-04-12,2021-04-15,2021-04-15,2021-04-16,2021-04-16,2021-04-16,2021-04-18,2021-04-18,2021-04-18,2021-04-18,2021-04-01,2021-04-18,2021-04-18,2021-04-18,2021-04-18,2021-04-21,2021-04-21,2021-04-21,2021-04-21,2021-04-22,2021-04-22,2021-04-23,2021-04-23,2021-04-24,2021-04-24,2021-04-24,2021-04-24,2021-04-27,2021-04-27,2021-04-27,2021-04-27,2021-04-28,2021-04-28,2021-04-29,2021-04-29,2021-04-29,2021-04-30,2021-04-30,2021-04-30,2021-04-30,2021-05-01,2021-05-01,2021-05-01,2021-05-01,2021-05-01,2021-05-02,2021-05-02,2021-05-02,2021-05-02,2021-05-02,2021-05-03,2021-05-03,2021-05-03,2021-05-04,2021-05-04,2021-05-05,2021-05-05,2021-05-06,2021-05-06,2021-05-06,2021-05-06,2021-05-06,2021-05-07,2021-05-07,2021-05-08,2021-05-08,2021-05-08,2021-05-09,2021-05-11,2021-05-11,2021-05-11,2021-05-11,2021-05-11,2021-05-11,2021-05-11,2021-05-11,2021-05-11,2021-05-11,2021-05-12,2021-05-12,2021-05-12,2021-05-12,2021-05-15,2021-05-15,2021-05-16,2021-05-16,2021-05-16,2021-05-18,2021-05-18,2021-05-18,2021-05-18,2021-05-01,2021-05-18,2021-05-18,2021-05-18,2021-05-18,2021-05-21,2021-05-21,2021-05-21,2021-05-21,2021-05-22,2021-05-22,2021-05-23,2021-05-23,2021-05-24,2021-05-24,2021-05-24,2021-05-24,2021-05-27,2021-05-27,2021-05-27,2021-05-27,2021-05-28,2021-05-28,2021-05-29,2021-05-29,2021-05-29,2021-05-30,2021-05-30,2021-05-30,2021-05-30,2021-06-01,2021-06-01,2021-06-01,2021-06-01,2021-06-01,2021-06-02,2021-06-02,2021-06-02,2021-06-02,2021-06-02,2021-06-03,2021-06-03,2021-06-03,2021-06-04,2021-06-04,2021-06-05,2021-06-05,2021-06-06,2021-06-06,2021-06-06,2021-06-06,2021-06-06,2021-06-07,2021-06-07,2021-06-08,2021-06-08,2021-06-08,2021-06-09,2021-06-11,2021-06-11,2021-06-11,2021-06-11,2021-06-11,2021-06-11,2021-06-11,2021-06-11,2021-06-11,2021-06-11,2021-06-12,2021-06-12,2021-06-12,2021-06-12,2021-06-15,2021-06-15,2021-06-16,2021-06-16,2021-06-16,2021-06-18,2021-06-18,2021-06-18,2021-06-18,2021-06-01,2021-06-18,2021-06-18,2021-06-18,2021-06-18,2021-06-21,2021-06-21,2021-06-21,2021-06-21,2021-06-22,2021-06-22,2021-06-23,2021-06-23,2021-06-24,2021-06-24,2021-06-24,2021-06-24,2021-06-27,2021-06-27,2021-06-27,2021-06-27,2021-06-28,2021-06-28,2021-06-29,2021-06-29,2021-06-29,2021-06-30,2021-06-30,2021-06-30,2021-06-30,"
+                            	
+
+                            ></activity-graph>
+                        </div>
+                     </section>
+
+                     <!-- OU HADIIIIIIII PROJECTS SECTION -->
+
+                      <h2 id="projects">My <span class="colored">Projects</span></h2>
+                      <div class="divider ltr"></div>
+
+                      <section class="projects">
+                        <div class="project-1">
+                            <img src="project-1.png" alt="">
+                            <h3>Project <span class="colored">Title-1</span></h3>
+                        </div>
+                        <div class="project-2">
+                            <img src="project-2.png" alt="">
+                            <h3>Project <span class="colored">Title-2</span></h3>
+                        </div>
+                        <div class="project-3">
+                            <img src="project-3.png" alt="">
+                            <h3>Project <span class="colored">Title-3</span></h3>
+                        </div>
+                        <div class="project-4">
+                            <img src="project-4.png" alt="">
+                            <h3>Project <span class="colored">Title-4</span></h3>
+                        </div>
+                        <div class="project-5">
+                            <img src="project-5.png" alt="">
+                            <h3>Project <span class="colored">Title-5</span></h3>
+                        </div>
+                        <div class="project-6">
+                            <img src="project-6.png" alt="">
+                            <h3>Project <span class="colored">Title-6</span></h3>
+                        </div>
+                        <div class="project-7">
+                            <img src="project-7.png" alt="">
+                            <h3>Project <span class="colored">Title-7</span></h3>
+                        </div>
+                      </section>
+                      
+                      <!-- blogsasst awldiii -->
+
+                      <h2 id="blogs">My <span class="colored">Blogs</span></h2>
+                      <div class="divider ltr"></div>
+
+                      <section class="blogs">
+                        <div class="blog-box">
+                            <img src="Web Design.png" alt="">
+                            <div>
+                                <h3>Web Design Tools</h3>
+                                <p>Je suis web designer, spécialisé dans la création de designs modernes et intuitifs pour les sites web. J’utilise des outils comme Figma, Adobe XD et Photoshop afin de concevoir des interfaces attractives, responsives et centrées sur l’expérience utilisateur (UX/UI).</p>
+                                <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                            </div>
+                        </div>
+                        <div class="blog-box">
+                            <img src="wordpress.png" alt="">
+                            <div>
+                                <h3>How To Develop WordPress Plugin</h3>
+                                <p>Je suis web designer, spécialisé dans la création de designs modernes et intuitifs pour les sites web. J’utilise des outils comme Figma, Adobe XD et Photoshop afin de concevoir des interfaces attractives, responsives et centrées sur l’expérience utilisateur (UX/UI).</p>
+                                <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                            </div>
+                        </div>
+                        <div class="blog-box">
+                            <img src="bootstrap.png" alt="">
+                            <div>
+                                <h3>What is Bootstrap</h3>
+                                <p>Je suis web designer, spécialisé dans la création de designs modernes et intuitifs pour les sites web. J’utilise des outils comme Figma, Adobe XD et Photoshop afin de concevoir des interfaces attractives, responsives et centrées sur l’expérience utilisateur (UX/UI).</p>
+                                <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                            </div>
+                        </div>
+                        <div class="blog-box">
+                            <img src="LARAVEL.png" alt="">
+                            <div>
+                                <h3>What is laravel</h3>
+                                <p>Je suis web designer, spécialisé dans la création de designs modernes et intuitifs pour les sites web. J’utilise des outils comme Figma, Adobe XD et Photoshop afin de concevoir des interfaces attractives, responsives et centrées sur l’expérience utilisateur (UX/UI).</p>
+                                <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                            </div>
+                        </div>
+                      </section>
+
+                      <!-- waaaaaawwwwww Testimonials -->
+
+                      <br><h2>My <span class="colored">Testimonials</span></h2>
+                      <div class="divider ltr"></div>
+
+                      <section class="testimonials">
+                        <div class="testimonial-box">
+                            <h1>What <span class="colored">Client Say About Me</span></h1>
+                        </div>
+                        <div class="testimonial-box">
+                            <img src="testimonial1.png" alt="">
+                            <span>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                            </span>
+                            <h3>ayman ma3rftch chno knito</h3><i>GPT CHAT HLKO BLISTI3MAL</i>
+                            <p></p>
+                        </div>
+                        <div class="testimonial-box">
+                            <img src="testimonial2.png" alt="">
+                            <span>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                            </span>
+                            <h3>khalifa kchkouch</h3><i>GPT CHAT HLKO BLISTI3MAL</i>
+                            <p></p>
+                        </div>
+                        <div class="testimonial-box">
+                            <img src="testimonial3.png" alt="">
+                            <span>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star"></ion-icon>
+                              <ion-icon name="star-half"></ion-icon>
+                            </span>
+                            <h3>LOSTAD HMZA </h3><i>Manager at Google Inc.</i>
+                            <p></p>
+                        </div>
+                      </section>
+                      <!-- ou akhiran hadi dyal lcontact -->
+                      <h1 id="contact">Contact <span class="colored">Me</span></h1>
+                      <div class="divider ltr"></div>
+
+                      <section>
+                        <iframe class="map" width="100%" height="300" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105994.74505478093!2d-5.538020200000015!3d33.88100500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda044d23bfc49d1%3A0xfbbf80a99e4cde18!2sMeknes!5e0!3m2!1sen!2sma!4v1768491102182!5m2!1sen!2sma" ></iframe>
+                        <form action="#" class="contact">
+                            <div>
+                                <input type="text" class="input" name="firstname" placeholder="Your Name...">
+                            </div>
+                            <div>
+                                <input type="text" class="input" name="Lastname" placeholder="Your Last Name...">
+                            </div>
+                            <div>
+                                <input type="email" class="input" name="email" placeholder="Your Email Adress...">
+                            </div>
+                            <div>
+                                <textarea class="input" rows="4" name="subject" placeholder="Write Somthing..."></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="submit">SEND</button>
+                            </div>
+                        </form>
+                      </section>
+
+                </div>
+
+        </div>
+        
+
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="FORT.JS"></script>
+</body>
+</html>
