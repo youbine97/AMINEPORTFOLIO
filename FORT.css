@@ -499,6 +499,7 @@ body.div .projects h3{
 }
 .map{
     padding: 3px;
+    margin: 3px;
     border-radius: 10px;
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
